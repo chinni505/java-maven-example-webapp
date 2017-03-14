@@ -9,7 +9,7 @@ public class TestController {
 
 	@RequestMapping({"/test", "hi"})
 	public String test(Model model){
-		model.addAttribute("message", "Maven + Spring Example Webapp Up and Running 999");
+		model.addAttribute("message", "Maven + Spring Example Webapp Up and Running");
 		return "test/index";
 	}
 	
